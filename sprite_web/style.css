@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-image: url(./Bg01.png);
+    background-position: top;
+    background-size: cover;
+}
+
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 15%;
+    /* background-color: bisque; */
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    /* background-color: aliceblue; */
+}
+
+#logo img {
+    width: 100px;
+    height: 100px;
+}
+
+#links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(4, 38, 90); */
+}
+
+#links a{
+    text-decoration: none;
+    color: aliceblue;
+    border: 1px solid rgb(255, 254, 254);
+    border-radius: 50px;
+    padding: 12px 24px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+#icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 25%;
+    height: 100%;
+    /* background-color: rgb(247, 247, 129); */
+}
+
+#icon i{
+    padding: 10px 10px;
+    /* background-color: aliceblue; */
+    font-size: 13px;
+    border-radius: 50%;
+    border: 1px solid floralwhite;
+    color: aliceblue;
+}
+
+#text{
+    /* background-color: blueviolet; */
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    width: 40%;
+    /* position: relative; */
+}
+
+#text h1{
+    font-size: 60px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+#text p{
+    width: 500px;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(192, 192, 192);
+    margin-top: 25px;
+}
+
+#text button{
+    padding: 12px 24px;
+    border-radius: 50px;
+    margin-top: 25px;
+    font-size: 15px;
+    color: rgb(37, 129, 0);
+    border: none;
+}
+
+#text #lemon{
+    position: absolute;
+    left: 180px;
+    top: -35px;
+    width: 150px;
+    height: 80px;
+    background-color: rgb(37, 129, 0);
+    border-radius: 10px;
+}
+
+#text #lemon img{
+    width: 120px;
+    position: absolute;
+    top: -25px;
+    left: 15px;
+}
+
+#main #sprite{
+    position: absolute;
+    width: 90px;
+    left: 35%;
+    top: 20%;
+}
+
